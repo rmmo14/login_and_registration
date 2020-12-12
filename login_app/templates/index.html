@@ -29,8 +29,8 @@
     <h2>Login</h2>
     <form action="/login" method="POST">
         {% csrf_token %}
-        <label for="login_email">Email</label>
-        <input type="email" name="login_email" id="user_login">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="user_login">
         <label for="login_pw">Password</label>
         <input type="password" name="login_pw" id="user_login">
         <button>Login</button>
